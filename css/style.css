@@ -1,0 +1,99 @@
+img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+}
+#referenciaAutoria{
+    width: 50%;
+    height: 50%;
+    color: azure;
+}
+#textPrincipal{
+    padding: 5% 5% 0% 10%;
+    font-size: 200%;
+}
+#tarjetas{
+    max-width: 80%;
+    margin: 4% 5% 5% 10%;
+}
+#img_tarjetas{
+    width: auto;
+}
+#text_tarjetas{
+    width: 40%;
+}
+
+.carousel {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.carousel-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 10s linear infinite;
+}
+
+#track{
+    width: 100px;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-90%);
+    }
+}
+.listaElementos{
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+#accordionPanelsStayOpenExample{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+#PaginaDeMuestra{
+    max-width: 50%;
+    max-height: 50%;
+}
+/* .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} */
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.contenedor {
+    text-align: center;
+    max-width: 40%;
+    margin: 10px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+#ubicacionImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+
+}
