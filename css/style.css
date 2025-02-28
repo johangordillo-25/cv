@@ -90,10 +90,6 @@ body {
     font-weight: 400;
 }
 #ubicacionImg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    width: 100%;
-
+    width: 80%;
+    margin: 80px 60px 70px 35px;
 }
